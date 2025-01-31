@@ -1,0 +1,28 @@
+body{
+    background-image: url("../images/nature-back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    background: linear-gradient(45deg, #1b1b32, #0a0a23, #0e0c59, black);
+      width: 20rem;
+      margin: 0 auto;
+      padding: 50px 200px;
+      width: max(800px);
+      box-shadow: 5px 5px 20px blue;
+      border-radius: 10px;
+  }
+
+  .shop-title{
+    color: white;
+    font-family: Courier;
+    justify-content: center;
+    text-align: center;
+  }
+
+  p{
+    color: white;
+    font-family: Courier;
+  }
