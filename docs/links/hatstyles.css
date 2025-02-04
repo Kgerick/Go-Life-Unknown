@@ -1,0 +1,27 @@
+body{
+    background-image: url("../images/nature-back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(15px);
+  }
+
+  main{
+    background: linear-gradient(45deg, #1b1b32, #0a0a23, #0e0c59, black);
+      width: 100%;
+      margin: 0 auto;
+      padding: 50px 200px;
+      max-width: 550px;
+      box-shadow: 5px 5px 20px blue;
+      border-radius: 10px;
+  }
+
+  .hat-title{
+    color: white;
+    font-family: Courier;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 36px;
+    font-weight: bold;
+  }

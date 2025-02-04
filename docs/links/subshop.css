@@ -1,0 +1,163 @@
+body{
+    background-image: url("../images/nature-back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(15px);
+  }
+
+  main{
+    background: linear-gradient(45deg, #1b1b32, #0a0a23, #0e0c59, black);
+      width: 100%;
+      margin: 0 auto;
+      padding: 50px 200px;
+      max-width: 550px;
+      box-shadow: 5px 5px 20px blue;
+      border-radius: 10px;
+  }
+
+  /*Low hanging V*/
+
+  .low-title{
+    color: white;
+    font-family: Courier;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .price{
+    color: white;
+    font-style: italic;
+  }
+
+  .beanie-container{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .beanie-container img{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  p{
+    color: white;
+  }
+
+  .buy-buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .add-cart{
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px white;
+    background-color: blue;
+    color: white;
+  }
+  
+  .buy-now{
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px white;
+    background-color: blue;
+    color: white;
+  }
+
+  .buy-now:hover{
+    transform: scale(1.3) rotate(4deg);
+    background-color: brown;
+  }
+
+  .add-cart:hover{
+    transform: scale(1.3) rotate(4deg);
+    background-color: brown;
+  }
+
+  /*Classic beanie*/
+
+  .classic-title{
+    color: white;
+    font-family: Courier;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .classic-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .classic-container img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+  }
+
+  /*Workers Beanie*/
+
+  .worker-title{
+    color: white;
+    font-family: Courier;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .worker-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .worker-container img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+  }
+
+  .hat-title{
+    color: white;
+    font-family: Courier;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .hat-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hat-container img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+  }
+
+  .back{
+    text-decoration: none;
+    color: red;
+  }
+
+  .logo{
+    width: 40px;
+    height: auto;
+    text-decoration: none;
+}
+
+.main-head{
+    display: block;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-head a{
+    border: none;
+    width: 160px;
+}

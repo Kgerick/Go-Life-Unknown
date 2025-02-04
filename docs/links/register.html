@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLU Registration</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="icon" href="../images/tree-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/tree-icon.png" type="images/x-icon">
+</head>
+<body>
+    <main>
+        <div class="main-head">
+            <img class="logo" src="../images/tree-icon.png"><a href="../index.html">
+            <p>Go Life Unknown</p></a>
+        </div>
+        <form>
+            <h1 class="register-title">Register to Go Life Unknown</h1>
+            <p>Welcome to registration! We just require some basic info on you
+                so that you can have the optimal experience that our site offers!
+                <span>We will not release any of the info that you provide us.</span>
+            </p>
+            <fieldset>
+                <legend>General Info</legend>
+            <section id="form-info">
+                <label for="first-name">*Name (Required): </label>
+                <input type="text" id="first-name" name="first-name" placeholder="John" required>
+
+                <label for="last-name">*Last Name (Required): </label>
+                <input type="text" id="last-name" name="last-name" placeholder="Smith" required>
+
+                <label for="age">*Age (Required): </label>
+                <input type="number" id="age" name="age" min="12" max="99" placeholder="Ex. 24" required>
+
+                <label for="gender">Gender (optional): </label>
+                <label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                </label>
+                <label>
+                <input type="radio" id="gender" name="gender" value="female">Female
+                </label>
+
+                <label for="email">*Email (Required): </label>
+                <input type="email" id="email" name="email" placeholder="johnsmith@fake.com" required>
+
+                <label for="username">*Create a Username (Required): </label>
+                <input type="text" id="username" name="username" placeholder="JimmyJohn445" required>
+                
+                <label for="password">*Create a Password (Required): </label>
+                <input type="password" id="password" name="password" required>
+            </section>
+        </fieldset>
+
+            <hr>
+
+            <section id="form-custom">
+                <h1 class="profile-title">Customize Your Profile (Optional)</h1>
+                <section class="profile">
+                <p>Lets start by adding a profile picture!</p>
+                <form action="POST" id="profile-pic">
+                    <label id="profile-pic">Upload your profile picture here:
+                    <input type="file" name="file">
+                    </label>
+                </form>
+                <label id="description">Great! Next you can add a nice profile description
+                    telling people a little bit about yourself
+                </label>
+                <textarea id="description" placeholder="Tell us about yourself!"></textarea>
+                </section>
+            </section>
+
+            <button type="submit" id="complete"><a id="complete" href="complete.html">Submit</a></button>
+            
+    </main>
+</body>
+</html>
